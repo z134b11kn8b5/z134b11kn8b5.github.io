@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>KGE - Kyiv Grain Export Official Site</title>
+    <title>ООО Купец первой гильдии - официальный сайт</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -18,9 +18,27 @@
 
     <!-- Header -->
 <header id="header" class="alt">
-    <h1><a href="index.html">KGE - Kyiv Grain Export</a></h1>
+    <h1><a href="index.html">Купец первой гильдии</a></h1>
     <nav>
-        <a href="#menu">Меню</a>
+        <a class="hide-large" href="#menu">Меню</a>
+
+        <a class="show-large" href="/">Главная</a>
+        
+        
+        <a class="show-large" href="/about.html">О нас</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a class="show-large" href="/price.html">Цены</a>
+        
+        
+        <a class="show-large" href="#contacts">Контакты</a>
     </nav>
 </header>
 
@@ -39,6 +57,10 @@
             
             
             
+            
+            
+            
+            
             <li><a href="/price.html">Цены</a></li>
             
             
@@ -51,9 +73,9 @@
 <!-- Banner -->
 <section id="banner">
     <div class="inner">
-        <div class="logo logo-image"><img src="images/wheat-grains.svg" alt=""></div>
-        <a href="/"><h2>KGE - Kyiv Grain Export</h2></a>
-        <p>7 лет на рынке экспорта зерновых культур, более 30 стран партнеров, миллинны тонн годового экспорта</p>
+        <div class="logo logo-image"><a href="/"><img src="images/wheat-grains.svg" alt=""></a></div>
+        <a href="/"><h2>Купец первой гильдии</h2></a>
+        <p>7 лет на рынке экспорта зерновых культур, более 30 стран партнеров, сотни тысяч тонн годового экспорта</p>
     </div>
 </section>
 
@@ -172,13 +194,13 @@
 
         <div class="row">
             <div class="7u 12u$(medium) map-wrap">
-                <div id="map"></div>
+                <div id="map"><a href="https://www.google.com/maps/place/50%C2%B028'14.4%22N+30%C2%B023'47.6%22E/@50.4706061,30.3959276,18.3z/data=!4m2!3m1!1s0x0:0x0" target="_blank"> </a></div>
             </div>
 
             <div class="5u 12u$(medium)">
                 <ul id="contacts" class="contact">
                     <li class="fa-home">
-                        г.Киев ул Туполева 12а
+                        Киев, ул. Туполева, 12А
                     </li>
                     <li class="fa-phone">Tel: +38 (050) 383-00-55</li>
                     <li class="fa-fax">Fax: +38 (050) 434-00-66</li>
@@ -189,7 +211,7 @@
             </div>
         </div>
         <ul class="copyright">
-            <li>&copy; 2016 KGE Inc. Все права защищены.</li>
+            <li>&copy; 2016 ООО &#8220;Купец первой гильдии&#8221;. Все права защищены.</li>
         </ul>
 
     </div>
@@ -206,29 +228,30 @@
 <script src="/js/main.js"></script>
 
 
-<script>
+<script>/*
     function initMap() {
         var mapDiv = document.getElementById('map');
         if (mapDiv !== null) {
             var map = new google.maps.Map(mapDiv, {
-                center: {lat: 49.565697, lng: 34.528520},
+                center: {lat: 50.470666, lng: 30.396558},
                 zoom: 17,
-                /*draggable: false,*/
             });
             var marker = new google.maps.Marker({
-                position: {lat: 49.565697, lng: 34.528520},
+                position: {lat: 50.470666, lng: 30.396558},
                 map: map,
-                title: 'KGE - KYIV GRAIN EXPORT'
+                title: 'Купец первой гильдии'
             });
             $(".map-overlay").click(function () {
                 $(".map-overlay").hide();
             });
         }
-    }
+    }*/
 
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?callback=initMap&language=ru" async defer></script>
+<!--
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap&language=ru" async defer></script>-->
+
 
 </body>
 
